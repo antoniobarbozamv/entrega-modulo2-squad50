@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e4eef6;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 500px;
+    margin:  0 auto; 
+    padding: 25px; 
+    border-radius: 10px;
+}
+
+.form h2{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #1653aa;  
+}
+
+.form p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(117, 117, 117);
+}
+
+.form label, .form input{
+    display: block;
+    width: 100%;
+}
+
+.form input{
+    margin-bottom: 17px;
+    padding: 5px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #e4eef6;
+}
+
+.cadastre_se{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+.cadastre_se p{
+    display: inline-flex;
+    
+}
+
+.btn{
+    background-color: #e88559;
+    color: #FFF;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #eb5b1d;
+    color: #FFF;   
+}
