@@ -14,9 +14,7 @@
     
     <!-------- Responsividade ---------->
 
-    <!-------- Acessibilidade - documentação falando 
-      sobre ARIA no feed no grupo de lembrete - ver 
-      sobre div class click-stealer ---->
+    <!-------- Acessibilidade - documentação falando sobre ARIA no feed no grupo de lembrete - ver sobre div class click-stealer ---->
 
     <header>
       <nav class="navbar
@@ -98,14 +96,12 @@
       </nav>    
     </header>
     
-    <div class="container pt-5 mt-5">
+    <div class="container-fluid pt-5 mt-5">
       <div class="row">
         <!-------- Sidebar Start ----------->
         <div class="col-3">
           <div class="card">
-            <img class="card-img-top" 
-            src="./imagens/user.svg"
-            alt="user image">
+            <img class="card-img-top" src="./imagens/user.svg" alt="user image">
             <div class="card-body">
               <h5>Letícia Peixoto</h5>
               <p>Estudante do Ensino Médio</p>
@@ -134,28 +130,23 @@
         </div>
         <!-------- Sidebar End ------------->
 
-        <div class="col-9">
         <!-------- Section Publicar Start -->
-          <div class="container">
-            <form>
-              <label for="formPublish">
-                O que você aprendeu hoje?
-              </label>
-              <textarea class="form-control" 
-              id="formPublish" 
-              rows="2">
-              </textarea>
-              <div class="d-flex flex-row-reverse mt-3">
-                <button type="submit" 
-                class="btn btn-primary">
-                  Publicar
-                </button>
-              </div>  
-            </form>
+        <div class="col-9">
+          <div class="container mb-3">
+            <label for="formPublish" class="form-label">
+              O que você aprendeu hoje?
+            </label>
+            <textarea class="form-control" id="formPublish" rows="2">
+            </textarea>
+            <div class="d-flex flex-row-reverse mt-3">
+              <button type="submit" class="btn btn-primary">
+                Publicar
+              </button>
+            </div>  
           </div>
-        <!------- Section Publicar End ----->
+          <!------- Section Publicar End ----->
         
-        <!-------- Section Feed Start ------>
+          <!-------- Section Feed Start ------>
           <div class="container mt-3">
             <div class="card">
               <div class="card-header">
@@ -171,6 +162,9 @@
                   inventore? Provident dolore facere 
                   asperiores quae quidem.
                 </p>
+
+         <!-------- Ícones - associar à responsavidade dos botões ------>
+                
                 <button class="btn btn-outline-primary">
                   Gostei
                 </button>
@@ -242,7 +236,7 @@
               </div>
             </div>
           </div>
-        <!------- Section Feed End --------->  
+          <!------- Section Feed End --------->  
         </div>
 
       </div>
